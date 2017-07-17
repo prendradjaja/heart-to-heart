@@ -29,4 +29,4 @@ def print_image(image, end='\n'):
         print(line.replace(notblack, black).replace(notwhite, white), end=end)
 
 print('<meta charset="UTF-8">')
-print_text('HELLO WORLD', end='<br>')
+print_text('HELLO WORLD', end='<br>\n')
